@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4476746101097228}
   - component: {fileID: 54076474350783456}
   - component: {fileID: 136293993784693036}
+  - component: {fileID: 114583488219326534}
   m_Layer: 0
   m_Name: Done_Bolt
   m_TagString: Untagged
@@ -126,6 +127,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114583488219326534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1236353593988872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2331c9c234741249a2600735a8414d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
 --- !u!136 &136293993784693036
 CapsuleCollider:
   m_ObjectHideFlags: 1
