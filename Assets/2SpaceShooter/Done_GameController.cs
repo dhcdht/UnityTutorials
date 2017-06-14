@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace _2SpaceShooter
 {
@@ -13,9 +14,9 @@ namespace _2SpaceShooter
         public float startWait;
         public float waveWait;
 
-        public GUIText gameOverText;
-        public GUIText restartText;
-        public GUIText scoreText;
+        public Text gameOverText;
+        public Text restartText;
+        public Text scoreText;
 
         private bool gameOver;
         private bool restart;

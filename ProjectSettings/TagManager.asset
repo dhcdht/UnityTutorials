@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pick Up
   - Boundary
+  - Enemy
   layers:
   - Default
   - TransparentFX
