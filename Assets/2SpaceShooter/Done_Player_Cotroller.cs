@@ -1,8 +1,9 @@
-﻿using System.Security.AccessControl;
+﻿using System;
 using UnityEngine;
 
 namespace _2SpaceShooter
 {
+    [Serializable]
     public class Done_Boundary
     {
         public float xMin, xMax, zMin, zMax;
