@@ -317,7 +317,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 198033658}
-  - component: {fileID: 198033659}
   m_Layer: 0
   m_Name: SpawnPoint2
   m_TagString: Untagged
@@ -338,66 +337,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &198033659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 198033657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26a7206f212484344961a96ce6a460e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_numRoundsToWin: 5
-  m_startDelay: 3
-  m_endDelay: 3
-  m_cameraControl: {fileID: 0}
-  m_messageText: {fileID: 0}
-  m_tankPrefab: {fileID: 0}
-  m_tanks: []
---- !u!1001 &293230128
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614318549102572, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 5e41ca3ee2118464291e5ec08eb3dd07, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &300219324
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,26 +648,3 @@ MonoBehaviour:
     m_coloredPlayerText: 
     m_instance: {fileID: 0}
     m_wins: 0
---- !u!1 &2074309707 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1188586523556224, guid: 5e41ca3ee2118464291e5ec08eb3dd07,
-    type: 2}
-  m_PrefabInternal: {fileID: 293230128}
---- !u!114 &2074309708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2074309707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2552a2450965ae64abb8d31d90432dcf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_playerNumber: 1
-  m_speed: 12
-  m_turnSpeed: 180
-  m_moveMentAudio: {fileID: 0}
-  m_engineIdling: {fileID: 0}
-  m_engineDriving: {fileID: 0}
-  m_pitchRange: 0.2
