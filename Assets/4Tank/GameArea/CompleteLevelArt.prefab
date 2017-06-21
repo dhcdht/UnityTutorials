@@ -6936,7 +6936,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: afb8f14d94068004bbb713163114231f, type: 2}
+  - {fileID: 2100000, guid: 988c25f39c16aeb40b079abc86057eb8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8028,7 +8028,7 @@ MeshCollider:
   m_Convex: 0
   m_InflateMesh: 0
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 126dbcddb53386c4f969fdf0c555e822, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 831047a8b5fcba2438c615826d50708c, type: 3}
 --- !u!65 &6500506
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -9209,7 +9209,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.9558824, g: 0.88749653, b: 0.6747405, a: 1}
+  m_Color: {r: 0.95686275, g: 0.8862745, b: 0.6745098, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
