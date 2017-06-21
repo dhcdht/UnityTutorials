@@ -161,6 +161,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 198033658}
+  - component: {fileID: 198033659}
   m_Layer: 0
   m_Name: SpawnPoint2
   m_TagString: Untagged
@@ -181,6 +182,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &198033659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 198033657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a7206f212484344961a96ce6a460e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_numRoundsToWin: 5
+  m_startDelay: 3
+  m_endDelay: 3
+  m_cameraControl: {fileID: 0}
+  m_messageText: {fileID: 0}
+  m_tankPrefab: {fileID: 0}
+  m_tanks: []
 --- !u!1 &300219324
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +383,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1681750980}
+  - component: {fileID: 1681750981}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -384,3 +404,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1681750981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1681750979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a7206f212484344961a96ce6a460e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_numRoundsToWin: 5
+  m_startDelay: 3
+  m_endDelay: 3
+  m_cameraControl: {fileID: 15021739}
+  m_messageText: {fileID: 0}
+  m_tankPrefab: {fileID: 0}
+  m_tanks:
+  - m_playerColor: {r: 0.16470589, g: 0.39215687, b: 0.69803923, a: 0}
+    m_spawnPoint: {fileID: 1073354578}
+    m_playerNumber: 0
+    m_coloredPlayerText: 
+    m_instance: {fileID: 0}
+    m_wins: 0
+  - m_playerColor: {r: 0.8980392, g: 0.18039216, b: 0.15686275, a: 0}
+    m_spawnPoint: {fileID: 198033658}
+    m_playerNumber: 0
+    m_coloredPlayerText: 
+    m_instance: {fileID: 0}
+    m_wins: 0
