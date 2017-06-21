@@ -53,6 +53,8 @@ GameObject:
   - component: {fileID: 65726167143377584}
   - component: {fileID: 114340770249063908}
   - component: {fileID: 114921355098101318}
+  - component: {fileID: 82057484101918528}
+  - component: {fileID: 82944604496243912}
   m_Layer: 0
   m_Name: CompleteTank
   m_TagString: Untagged
@@ -620,6 +622,168 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.7, z: 1.6}
   m_Center: {x: 0, y: 0.85, z: 0}
+--- !u!82 &82057484101918528
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188586523556224}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 2efa482aece3e2342848f777240a6266,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 0526041e4ba4c3345bd1e325280038a9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &82944604496243912
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188586523556224}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7f5967c9970c3244885c5564225b8029,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114027395973350448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -746,9 +910,9 @@ MonoBehaviour:
   m_playerNumber: 1
   m_speed: 12
   m_turnSpeed: 180
-  m_moveMentAudio: {fileID: 0}
-  m_engineIdling: {fileID: 0}
-  m_engineDriving: {fileID: 0}
+  m_moveMentAudio: {fileID: 82057484101918528}
+  m_engineIdling: {fileID: 8300000, guid: 0526041e4ba4c3345bd1e325280038a9, type: 3}
+  m_engineDriving: {fileID: 8300000, guid: 82f0c6e0d3532b942af156562730f783, type: 3}
   m_pitchRange: 0.2
 --- !u!114 &114601149538613686
 MonoBehaviour:
@@ -817,11 +981,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_playerNumber: 1
   m_shellPrefab: {fileID: 0}
-  m_fireTransform: {fileID: 0}
+  m_fireTransform: {fileID: 4745713313159458}
   m_aimSlider: {fileID: 114166932144744364}
-  m_shootingAudio: {fileID: 0}
-  m_chargingClip: {fileID: 0}
-  m_fireClip: {fileID: 0}
+  m_shootingAudio: {fileID: 82944604496243912}
+  m_chargingClip: {fileID: 8300000, guid: 4f8bbdf6377517a45889b5487bee44cb, type: 3}
+  m_fireClip: {fileID: 8300000, guid: 437ccf580ff2afb429cfc60642466d70, type: 3}
   m_minLaunchForce: 15
   m_maxLaunchForce: 30
   m_maxChargeTime: 0.75
@@ -882,7 +1046,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -2074097086
+  randomSeed: -1730474983
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -1439,7 +1603,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1480,7 +1644,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1529,10 +1693,22 @@ ParticleSystem:
       minScalar: 0
       maxCurve:
         serializedVersion: 2
-        m_Curve: []
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: -2
+          outSlope: -2
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-        m_RotationOrder: 4
+        m_RotationOrder: 0
       minCurve:
         serializedVersion: 2
         m_Curve:
@@ -3924,7 +4100,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 370097850
+  randomSeed: -1505111889
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4481,7 +4657,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4522,7 +4698,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4571,10 +4747,22 @@ ParticleSystem:
       minScalar: 0
       maxCurve:
         serializedVersion: 2
-        m_Curve: []
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: -2
+          outSlope: -2
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-        m_RotationOrder: 4
+        m_RotationOrder: 0
       minCurve:
         serializedVersion: 2
         m_Curve:
