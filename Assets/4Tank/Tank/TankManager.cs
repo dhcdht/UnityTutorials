@@ -23,6 +23,7 @@ public class TankManager
     {
         m_movement = m_instance.GetComponent<TankMovement>();
         m_shooting = m_instance.GetComponent<TankShooting>();
+        m_canvasGameObject = m_instance.GetComponentInChildren<Canvas>().gameObject;
 
         m_movement.m_playerNumber = m_playerNumber;
         m_shooting.m_playerNumber = m_playerNumber;
