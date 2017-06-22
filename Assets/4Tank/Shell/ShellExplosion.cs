@@ -29,7 +29,13 @@ public class ShellExplosion : MonoBehaviour
             }
             targetRigidbody.AddExplosionForce(m_explosionForce, transform.position, m_explosionRadius);
 
-            // todo: 坦克伤害
+            var targetHealth = targetRigidbody.GetComponent<TankHealth>();
+            if (!targetHealth)
+            {
+                continue;
+            }
+            var damage = CalculateDamage(targetRigidbody.position);
+            targetHealth.TakeDamage(damage);
         }
 
         m_explosionParticles.transform.parent = null;
